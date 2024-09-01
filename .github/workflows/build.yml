@@ -16,5 +16,5 @@ jobs:
     - name: make
       run: gcc -c main.c
     - name: Display the path
-      run: echo $PATH
+      run: ls -all
       shell: bash
