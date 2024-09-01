@@ -15,4 +15,6 @@ jobs:
     - uses: actions/checkout@v1
     - name: make
       run: gcc -c main.c
-    
+    - name: Display the path
+      run: echo $PATH
+      shell: bash
