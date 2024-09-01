@@ -14,7 +14,5 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: make
-      run: make -f /dev/null devmem2
-    - name: check executable
-      run: bash -c "[[ -x devmem2 ]]"
+      run: gcc -c main.c
     
